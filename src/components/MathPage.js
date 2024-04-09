@@ -1,6 +1,5 @@
 import React from "react";
 import MathOptionBox from "./MathOptionBox";
-import { Link } from "react-router-dom";
 
 const options = [
     {

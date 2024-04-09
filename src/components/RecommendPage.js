@@ -1,5 +1,4 @@
-import { Circle } from "rc-progress";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import PathContainer from "./PathContainer";
 
 export default function RecommendPage() {
@@ -12,9 +11,9 @@ export default function RecommendPage() {
         }, 2000);
     };
 
-    // useEffect(() => {
-    //     loadingHandler();
-    // }, []);
+    useEffect(() => {
+        loadingHandler();
+    }, []);
 
     return (
         <div className="relative p-10 min-h-screen w-full flex justify-center items-center">

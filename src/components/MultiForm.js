@@ -7,7 +7,6 @@ import InterestPage from "./InterestPage";
 import RightPlacePage from "./RightPlacePage";
 import MathPage from "./MathPage";
 import OnYourWayPage from "./OnYourWayPage";
-import RecommendPage from "./RecommendPage";
 import { useState } from "react";
 
 const INITIAL_DATA = {
